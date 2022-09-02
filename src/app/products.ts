@@ -20,7 +20,7 @@ export const products = [
   },
   {
     id: 3,
-    name: 'Gudan',
+    name: 'Gudang',
     price: 45,
     description: 'Overrated',
   },
