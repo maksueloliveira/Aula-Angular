@@ -4,6 +4,7 @@
   <h3>
     {{ product.name }}
   </h3>
+  <h4>R${{ product.price }}</h4>
   <p *ngIf="product.description">Descrição: {{ product.description }}</p>
   <button type="button" (click)="share()">Compartilhar!</button>
 </div>
